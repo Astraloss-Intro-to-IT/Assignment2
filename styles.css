@@ -36,7 +36,7 @@ body{
 }
 
 
-h1 { color: #111; font-family: 'Helvetica Neue', sans-serif; font-size: 50px; font-weight: bold; letter-spacing: -1px; line-height: 1; text-align: center; padding-top: 100px; padding-bottom: 50px;}
+h1 { color: #111; font-family: 'Helvetica Neue', sans-serif; font-size: 50px; font-weight: bold; letter-spacing: -1px; line-height: 1; text-align: center; padding-top: 50px; padding-bottom: 50px;}
 
 
 h2{font-size: var(--fs-h2);}
@@ -79,7 +79,9 @@ p{font-size: var(--fs-h3);}
     cursor: pointer;
     text-decoration: none;
 }
-
+.project_team{
+    padding-bottom: 50px;
+}
 .project_team p{
     background-color: bisque;
     width: 80%;
@@ -100,25 +102,24 @@ p{font-size: var(--fs-h3);}
 
 .interview_report{
     display: flex;
-    flex-direction: column;
-    --internal-interview-height: 900px;
+    flex-direction: row;
+    width: 80%;
+    margin-left: 10%;
+    padding :20px 0 20px 100px;
+    border-radius: 6rem;
+    background-color: bisque;
 }
 
 .interview_report h1{text-align: center;}
 .internal_interview{
-    margin-left: 10%;
-    display:flex;
-    background-color: bisque;
+    margin-left: 3%;
+    display:inline-block;
     width: 80%;
-    border-radius: 6rem;
+    
     align-items: center;
     
 }
-.interview_video {
-    
-    width: 50%;
-    margin:100px;
-}
+
 
 .team_profile h1{
     text-align: center;
@@ -209,4 +210,7 @@ p{font-size: var(--fs-h3);}
 
 .member p span{
     font-weight: 600;
+}
+.script {
+    padding:10%;
 }
