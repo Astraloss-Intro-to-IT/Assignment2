@@ -47,7 +47,7 @@ p{font-size: var(--fs-h3);}
     width: 100%;
     justify-content: space-between;  
     align-items: center;
-    background-color: #b35468;
+    background-color: #FF416A;
 }
 .nav_list{
     display:flex;
@@ -58,16 +58,18 @@ p{font-size: var(--fs-h3);}
 
 .nav h1 {
     padding-left: 3%;
+    color:white;
 
 }
 .nav_item{ 
     padding: 10px;
+    color: #FF416A;
     
 }
 .nav_list .nav_item{
     margin: 20px;
     border-radius: 6rem;
-    background-color: #d6d1b2;
+    background-color: #ffffff;
     
     
 }
