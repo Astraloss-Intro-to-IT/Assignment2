@@ -112,7 +112,13 @@ p{font-size: var(--fs-h3);}
     background-color: bisque;
     align-items: center;
 }
-
+.interview_details{
+    padding-left: 20%;
+}
+.interview_detail{
+    font-size:40px;
+    padding:20px;
+}
 .interview_report h1{text-align: center;}
 .internal_interview{
     margin-left: 5%;
