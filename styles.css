@@ -28,7 +28,7 @@
     
 }
 body{
-    background-image: url("images/background.jpg");
+    /* background-image: url("images/background.jpg"); */
     color: var(--clr-dark);
     margin:0;
     font-family: sans-serif;
@@ -36,7 +36,7 @@ body{
 }
 
 
-h1 { color: #111; font-family: 'Helvetica Neue', sans-serif; font-size: 50px; font-weight: bold; letter-spacing: -1px; line-height: 1; text-align: center; padding-top: 50px; padding-bottom: 15px;}
+h1 { color: #FF416A; font-family: 'Helvetica Neue', sans-serif; font-size: 50px; font-weight: bold; letter-spacing: -1px; line-height: 1; text-align: center; padding-top: 50px; padding-bottom: 15px;}
 
 
 h2{font-size: var(--fs-h2);}
