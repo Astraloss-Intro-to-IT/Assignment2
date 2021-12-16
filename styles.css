@@ -181,33 +181,7 @@ p{font-size: var(--fs-h3);}
     margin-right:5%;
 }
 
-.Blogs{
-    display:flex;
-    justify-content: center;
-    flex-basis: auto;
-    background-color: bisque;
-    border-radius: 6rem;
-    width: 80%;
-     margin-left:10%; 
-    margin-bottom: 50px;;
-}
-.Blog{
-    flex:1;
-    border-radius: 6rem;
-    background-color: azure;
-    margin :20px;
-}
-.Blog p {
-    
-    word-break: break-all;
-    margin:15px;
-    text-align: center;
 
-}
-.Blog p h3 {
-    text-align: center;
-    color:red;
-}
 #myBtn {
     display: none;
     position: fixed;
@@ -227,18 +201,13 @@ p{font-size: var(--fs-h3);}
 .member p span{
     font-weight: 600;
 }
-.script {
-    padding:10%;
-}
+
 a{
     color:red;
 }
 .box {
-    
     margin: 25px;
 }
-
-
 img {
     display: block;
     transition:all 0.25s ease;
@@ -247,3 +216,5 @@ img {
 .box:hover img {
     transform:scale(1.25)
 }
+
+Tools
