@@ -83,13 +83,14 @@ p{font-size: var(--fs-h3);}
 }
 .nav .nav_list a{
     text-decoration:none;
-    color:#FF839D
+    color:#FF839D;
 }
 
 .nav_list .nav_item:hover{
-    background-color: #99936b;
+    
     cursor: pointer;
     text-decoration: none;
+    transform: scale(1.2);
 }
 .project_team{
     padding-bottom: 50px;
@@ -140,7 +141,6 @@ p{font-size: var(--fs-h3);}
     display:inline-block;
     width: 80%;
     align-items: center;
-    
 }
 .interview_detail a{
     
@@ -166,7 +166,7 @@ p{font-size: var(--fs-h3);}
     width: 80%;
     margin-left:10%;
     position: relative;
-  animation: mymove 2s ;
+    animation: mymove 2s ;
 
 }
 .member{ margin: 3%;flex:1;}
@@ -174,7 +174,7 @@ p{font-size: var(--fs-h3);}
 .member a img {
     display: block;
     max-width: 100%;
-    border-radius: 6rem;
+    border-radius: 4rem;
     transition: transform .2s;
 }
 
