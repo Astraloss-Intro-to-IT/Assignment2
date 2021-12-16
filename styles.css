@@ -50,6 +50,7 @@ h2{font-size: var(--fs-h2);}
 h3{font-size: var(--fs-h3);}
 p{font-size: var(--fs-h3);}
 .nav{
+    
     display:flex;
     width: 100%;
     justify-content: space-between;  
@@ -98,12 +99,17 @@ p{font-size: var(--fs-h3);}
     width: 80%;
      margin-left:10%; 
     border-radius: 6rem;
+    font-size: 30px;
+}
+.project_team p span{
+    font-size: 40px;
+    font-weight: 600;
 }
 .project_team p {
     flex:1;
     text-align: left;
     padding-top:100px;
-    padding: 50px;
+    padding: 45px;
     
 }
 .project_team h1{
@@ -137,6 +143,7 @@ p{font-size: var(--fs-h3);}
     
 }
 .interview_detail a{
+    
     color: #FFE2E8;
 }
 
@@ -144,6 +151,11 @@ p{font-size: var(--fs-h3);}
     text-align: center;
 }
 
+.team_profile{
+    position: relative;
+  animation: mymove 2s ;
+  
+}
 .Profiles{
 
     display:flex;
@@ -153,6 +165,8 @@ p{font-size: var(--fs-h3);}
     border-radius: 6rem;
     width: 80%;
     margin-left:10%;
+    position: relative;
+  animation: mymove 2s ;
 
 }
 .member{ margin: 3%;flex:1;}
@@ -191,8 +205,6 @@ p{font-size: var(--fs-h3);}
      justify-content: center;
     margin-right:5%;
 }
-
-
 #myBtn {
     display: none;
     position: fixed;
@@ -226,29 +238,8 @@ img {
     transform:scale(1.25)
 }
 
-.tooltip {
-    position: relative;
-    display: inline-block;
-    border-bottom: 1px dotted black;
-  }
+@keyframes mymove {
+    from {left: -80%;}
+    to {left: 0%;}
+}
   
-  .tooltip .tooltiptext {
-    visibility: hidden;
-    width: 120px;
-    background-color: black;
-    color: #fff;
-    text-align: center;
-    border-radius: 6px;
-    padding: 5px 0;
-    
-    /* Position the tooltip */
-    position: absolute;
-    z-index: 1;
-    top: 100%;
-    left: 50%;
-    margin-left: -60px;
-  }
-  
-  .tooltip:hover .tooltiptext {
-    visibility: visible;
-  }
