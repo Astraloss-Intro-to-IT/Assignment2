@@ -44,7 +44,6 @@ h3{font-size: var(--fs-h3);}
 p{font-size: var(--fs-h3);}
 .nav{
     display:flex;
-
     width: 100%;
     justify-content: space-between;  
     align-items: center;
@@ -147,15 +146,13 @@ p{font-size: var(--fs-h3);}
 }
 .member{ margin: 3%;flex:1;}
 
-.member img {
+.member a img {
     display: block;
     max-width: 100%;
     border-radius: 6rem;
-    transition: 2s;
+    transition: transform .2s;
 }
-.member img :hover{
-    transform: rotate(20deg);
-}
+
 .member h3{
     text-align:center;
     padding-top: 5%;
@@ -235,4 +232,19 @@ p{font-size: var(--fs-h3);}
 }
 a{
     color:red;
+}
+.box {
+    width:250px;
+    height:250px;
+    margin: 25px;
+}
+
+
+img {
+    display: block;
+    transition:all 0.25s ease;
+}
+
+.box:hover img {
+    -webkit-transform:scale(1.25)
 }
