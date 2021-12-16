@@ -5,6 +5,7 @@
     list-style: none;
     padding:0;
     margin:0;
+    
 }
 :root {
     --fw-reg:300;
@@ -29,14 +30,16 @@
 }
 body{
     /* background-image: url("images/background.jpg"); */
-    color: var(--clr-dark);
+    background-color: #FFE2E8;
+    color: #FFE2E8;
     margin:0;
     font-family: sans-serif;
     font-size: var(--fs-body)
+    
 }
 
 
-h1 { color: #FF416A; font-family: 'Helvetica Neue', sans-serif; font-size: 50px; font-weight: bold; letter-spacing: -1px; line-height: 1; text-align: center; padding-top: 50px; padding-bottom: 15px;}
+h1 { color: #FF839D; font-family: 'Helvetica Neue', sans-serif; font-size: 50px; font-weight: bold; letter-spacing: -1px; line-height: 1; text-align: center; padding-top: 50px; padding-bottom: 15px;}
 
 
 h2{font-size: var(--fs-h2);}
@@ -47,7 +50,7 @@ p{font-size: var(--fs-h3);}
     width: 100%;
     justify-content: space-between;  
     align-items: center;
-    background-color: #FF416A;
+    background-color: #FF839D;
 }
 .nav_list{
     display:flex;
@@ -58,23 +61,24 @@ p{font-size: var(--fs-h3);}
 
 .nav h1 {
     padding-left: 3%;
-    color:white;
+    color:#FFE2E8;
 
 }
 .nav_item{ 
     padding: 10px;
-    color: #FF416A;
+    color: #FFE2E8;
     
 }
 .nav_list .nav_item{
     margin: 20px;
     border-radius: 6rem;
-    background-color: #ffffff;
+    background-color: #FFE2E8;
     
     
 }
 .nav .nav_list a{
     text-decoration:none;
+    color:#FF839D
 }
 
 .nav_list .nav_item:hover{
@@ -86,7 +90,7 @@ p{font-size: var(--fs-h3);}
     padding-bottom: 50px;
 }
 .project_team p{
-    background-color: bisque;
+    background-color: #FF839D;
     width: 80%;
      margin-left:10%; 
     border-radius: 6rem;
@@ -110,7 +114,7 @@ p{font-size: var(--fs-h3);}
      margin-left: 10%; 
     padding :50px 0 50px 100px;
     border-radius: 6rem;
-    background-color: bisque;
+    background-color: #FF839D;
     align-items: center;
 }
 .interview_details{
@@ -119,17 +123,19 @@ p{font-size: var(--fs-h3);}
 .interview_detail{
     font-size:40px;
     padding:20px;
+    color: #FFE2E8;
 }
 .interview_report h1{text-align: center;}
 .internal_interview{
     margin-left: 5%;
     display:inline-block;
     width: 80%;
-    
     align-items: center;
     
 }
-
+.interview_detail a{
+    color: #FFE2E8;
+}
 
 .team_profile h1{
     text-align: center;
@@ -140,7 +146,7 @@ p{font-size: var(--fs-h3);}
     display:flex;
     justify-content: center;
     flex-basis: auto;
-    background-color: bisque;
+    background-color: #FF839D;
     border-radius: 6rem;
     width: 80%;
     margin-left:10%;
@@ -169,7 +175,7 @@ p{font-size: var(--fs-h3);}
 .end{
     display: flex;
     justify-content: space-between;
-    background-color: cadetblue;
+    background-color: #FF839D;
 
 }
 .end img{
@@ -204,9 +210,7 @@ p{font-size: var(--fs-h3);}
     font-weight: 600;
 }
 
-a{
-    color:red;
-}
+
 .box {
     margin: 25px;
 }
