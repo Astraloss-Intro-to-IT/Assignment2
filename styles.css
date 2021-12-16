@@ -61,14 +61,14 @@ p{font-size: var(--fs-h3);}
 
 }
 .nav_item{ 
-    padding: 20px;
+    padding: 10px;
     
 }
 .nav_list .nav_item{
     margin: 20px;
     border-radius: 6rem;
     background-color: #d6d1b2;
-    margin-right: 30px; 
+    
     
 }
 .nav .nav_list a{
