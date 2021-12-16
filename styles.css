@@ -28,7 +28,11 @@
     }
     
 }
+html {
+    scroll-behavior: smooth;
+  }
 body{
+   
     /* background-image: url("images/background.jpg"); */
     background-color: #FFE2E8;
     color: #FFE2E8;
@@ -222,6 +226,29 @@ img {
     transform:scale(1.25)
 }
 
-.Tools{
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
     
-}
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 50%;
+    margin-left: -60px;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
