@@ -234,8 +234,7 @@ a{
     color:red;
 }
 .box {
-    width:250px;
-    height:250px;
+    
     margin: 25px;
 }
 
@@ -246,5 +245,5 @@ img {
 }
 
 .box:hover img {
-    -webkit-transform:scale(1.25)
+    transform:scale(1.25)
 }
