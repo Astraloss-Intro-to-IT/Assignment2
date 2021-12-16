@@ -87,7 +87,7 @@ p{font-size: var(--fs-h3);}
 .project_team p{
     background-color: bisque;
     width: 80%;
-    margin-left:10%;
+     margin-left:10%; 
     border-radius: 6rem;
 }
 .project_team p {
@@ -106,7 +106,7 @@ p{font-size: var(--fs-h3);}
     display: flex;
     flex-direction: row;
     width: 80%;
-    margin-left: 10%;
+     margin-left: 10%; 
     padding :50px 0 50px 100px;
     border-radius: 6rem;
     background-color: bisque;
@@ -145,6 +145,10 @@ p{font-size: var(--fs-h3);}
     display: block;
     max-width: 100%;
     border-radius: 6rem;
+    transition: 2s;
+}
+.member img :hover{
+    transform: rotate(20deg);
 }
 .member h3{
     text-align:center;
@@ -181,7 +185,7 @@ p{font-size: var(--fs-h3);}
     background-color: bisque;
     border-radius: 6rem;
     width: 80%;
-    margin-left:10%;
+     margin-left:10%; 
     margin-bottom: 50px;;
 }
 .Blog{
