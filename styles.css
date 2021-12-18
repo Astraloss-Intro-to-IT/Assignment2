@@ -258,6 +258,7 @@ img {
 .butt1{
     width: 22%;
     text-align: center;
+    align-items: center;
     padding: 10px;
     margin-left: 25%;
     border-radius: 6rem;
@@ -268,6 +269,7 @@ img {
 .butt2{
     width: 22%;
     text-align: center; 
+    align-items: center;
     padding: 10px;
     margin-right: 25%;
     border-radius: 6rem;
